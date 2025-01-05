@@ -1,0 +1,12 @@
+# virtual env
+backend/ 
+
+#temporary files and directories
+temp/
+*.pyc
+*.pyo
+*.log
+__pycache__/
+
+# Editor settings
+.vscode/

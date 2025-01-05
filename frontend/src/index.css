@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5fa;
+}
+
+.app {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #e1e4ea;
+  height: 100vh;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar > nav > p{
+  font-size: 11px;
+}
+
+.uploadfile {
+padding: 0 25px;
+}
+
+button {
+  border: solid 0.5px rgba(51, 51, 51, 0.5);
+  background-color: #9b59b6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #7b8ae6;
+}
+
+.admin-newChat-button {
+  background-color: #f0c674;
+}
+
+.admin-newChat-button:hover {
+  background-color: #7b8ae6;
+}
+
+nav {
+  border-top: solid 0.5px rgba(51, 51, 51, 0.5);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.history {
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+}
+
+.history li {
+  list-style: none;
+  padding: 15px 0;
+  cursor: pointer;
+  color: #333;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.info {
+  color: rgba(51, 51, 51, 0.6);
+  font-size: 11px;
+  padding: 10px;
+}
+
+.bottom-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  border-radius: 5px;
+  display: flex;
+  background-color: #f5f5fa;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 4px 6px, rgba(0, 0, 0, 0.05) 0 12px 3px;
+}
+
+.input {
+  width: 95%;
+  border: none;
+  background-color: transparent;
+  padding: 12px 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.input:focus {
+  outline: none;
+}
+
+#submit {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #8a9bf0;
+  font-size: 20px;
+}
+
+.feed {
+  overflow-y: scroll;
+  width: 95%;
+  padding: 0;
+}
+
+.feed li {
+  display: flex;
+  background-color: #e1e4ea;
+  color: #333;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 6px;
+}
+
+.feed p {
+  color: #555;
+  font-size: 14px;
+  text-align: left;
+}
+
+.feed p.role {
+  min-width: 100px;
+  font-weight: 600;
+}
+
